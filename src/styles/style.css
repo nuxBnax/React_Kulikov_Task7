@@ -1,0 +1,30 @@
+.block {
+  background-color: rgb(57, 56, 56);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.block__title {
+  color: violet;
+}
+.block__details {
+  padding: 5px;
+  cursor: pointer;
+  width: 300px;
+}
+.block__summary {
+  border: 2px solid violet;
+  padding: 7px;
+  color: violet;
+}
+.block__user {
+  border-left: 1px solid violet;
+  padding: 5px;
+  box-shadow: 3px 4px 10px violet;
+  color: aqua;
+}
+
+details > summary::marker {
+  display: none;
+  content: "";
+}/*# sourceMappingURL=style.css.map */
